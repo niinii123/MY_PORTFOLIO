@@ -1,0 +1,289 @@
+                                                    /*STYLING FOR THE SIDEBAR*/
+body{
+    background-color: white;
+}
+ul li{
+    list-style: none;
+}
+h1{
+    padding: 5px;
+}
+.intro{
+    margin-left: 25px;
+}
+.text-below-H1{
+    padding: 5px;
+}
+.image-beside-intro{
+    margin-top: 10px;
+    height: 280px;
+
+}
+h2{
+ border-bottom: 5px solid red;
+ padding: 2px;
+ color: white;
+ text-decoration: none;
+}
+button{
+    margin-top: 4px;
+}
+
+a{
+    color: white;
+    text-decoration: none;  
+}
+a:hover{
+    color: grey;
+}
+
+.for-mobiles-only{
+    display: none;
+}
+.socials{
+    width: 260px;
+    height: 35px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+}
+.handles-style{
+    padding-top: 6px;
+    padding-right: 7px;
+}
+.links{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 4px;
+    padding-left: 4px;
+    font-size: 16px;
+   
+}
+img{
+    width: 65%;
+    height: 220px;
+}
+.not-svg{
+    width: 50%;
+    height: 150px;
+}
+                                            
+
+                                               /*STYLING FOR AREA ABOVE MAIN CONTENT AREA*/
+.top-main-content{
+    height: 55px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+span{
+    height: 50px;
+    width: 95%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-bottom: 5px solid red;
+    margin-left: 9px;
+}
+.text-nextto-button{
+    margin-left: 20%;
+    margin-right: 16%;
+    margin-top: 9px;
+    font-weight: bold;
+}
+.top-icons{
+    color: #212529;
+    margin-top: 10px;
+}
+.top-icons:hover{
+    color: grey;
+}
+
+.bottom-line{
+    border-bottom: 4px solid red;
+}
+
+.button-after-intro{
+    margin-top: 12px;
+}
+
+
+
+.project-style{
+    width: 29%;
+    padding-bottom: 6px;
+    border-bottom: 5px solid red;
+    margin-left: 29px;
+}
+                                    /*THIS MEDIA QUERY SETS A WIDTH OF 290PX FOR INTRO WHEN THE SCREEN SIZE IS 360PX OR LESS*/
+
+@media screen and (max-width: 360px) {
+    .intro{
+        width: 290px;
+    }
+    span{
+        height: 50px;
+        width: 95%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-bottom: 5px solid red;
+        margin-bottom: 7px;
+        margin-left: 9px;
+    }
+}  
+
+
+
+                               /*THE MEDIA QUERY BELOW MAKES THE IMAGE BESIDE THE INTRO DISAPPEAR WHEN THE SCREEN'S WIDTH IS 578PX AND BELOW*/
+@media screen and (max-width: 578px) {
+    .image-beside-intro{
+        display: none;
+    }   
+
+    .text-nextto-button{
+        margin-left: 10%;
+        margin-right: 16%;
+        margin-top: 9px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 578px) and (max-width: 770px){
+    .image-beside-intro{
+        padding-top: 100px;
+    }
+}
+
+
+
+                     /*THE MEDIA QUERY BELOW IS RESPONSIBLE FOR THE RESPONSIVENESS OF THE SCREEN WHEN IT'S 1020px or less*/
+                                               
+@media screen and (max-width: 1020px){
+                                             /*STYLING FOR THE SIDEBAR*/
+    /*This causes the sidebar to disappear when the screen width is 1020px or less*/
+    .sidebarr{
+       display: none;
+    }
+
+    .images-underlinks{
+        display: none;
+    }
+
+    /*After the sidebar dissappears thic causes the main content to occupy the entire width of the screen*/
+    .main-content {
+        width: 100%;
+    }
+
+    h2{
+      display: none;
+    }
+
+    .show-for-only-bigscreens{
+       display: none;
+    }
+
+    .text-nextto-button{
+        margin-left: 10px;
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .intro{
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+
+    .for-mobiles-only{
+        display:block;
+        margin-bottom: 50px;
+    }
+  
+    .socials{
+        width: 260px;
+        height: 35px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: none;
+        padding-right: 20px;
+    }
+
+    .reach-me{
+        display: none;
+    }
+
+    .first-half{
+        margin-left: 10%;
+        margin-top: 5%;
+       
+    }
+
+    ion-icon{
+        margin-left: 30px;
+    }
+
+                                                /*STYLING FOR THE SIDEBAR AFTER IT TOGGLES*/
+
+    .container1{
+        position: relative;
+    }
+    
+    .sidebarrr{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 25%;
+    }
+    
+    .main-content1{
+      margin-left: 1%;
+    } 
+             
+}                                           
+
+                                                /*STYLING FOR AREA ABOVE MAIN CONTENT AREA*/
+
+@media  screen and (max-width: 1354px) {
+    .top-main-content{
+        height: 55px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    span{
+        height: 50px;
+        width: 95%;
+        background-color: white;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        border-bottom: 5px solid red;
+        margin-left: 9px;
+    }
+    
+    .text-nextto-button{
+        margin-left: 1px;
+        margin-top: 15px;
+        font-size: small;
+        }
+
+    .top-icons{
+            display: none;
+        }
+    .top-icons:hover{
+            color: grey;
+        }
+        
+    .bottom-line{
+            border-bottom: 4px solid red;
+        }
+}

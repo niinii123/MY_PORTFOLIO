@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>BERNARD'S PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body >
+                                             <!--SIDEBAR-->
+    <!--THE SIDEBAR SECTION BELOW CONTAINS A CONTAINER WITH USES CSS GRIB TO CREATE-->
+    <!--TWO COLUMNS(col-3 and c0l-9) col-3 occupies three columns(thus, 25% of the width of the page)-->
+    <!--col-9 occupies 9 columns(thus,75% of the width of the page)-->
+    <!--The col-3 is the sidebar,which has a display of flex(d-flex) and also uses bootstrap-->
+    <!--classes to style sidebar-->
+
+    <section >
+       <div class="container-fluid container1">
+        <div class="row">
+            <!--The first-half class in the div below is responsible for shifting-->
+            <!--the navbar slightly to the right when the navbar is toggled-->
+           <div class="col-md-3 d-flex flex-column first-half  sidebarrr">
+              <nav class="navbar narbar-expand-lg text-light bg-dark flex-column nav-margin ml-0 sidebarr">
+                <h2 class="navbar-brand p-2 text-light">GET IN TOUCH</h2><br>
+                <div class="reach-me"><div class="d-inline text-danger">Reach out </div>and let's start a conversation!</div><br>
+                <!--The div below displays the message within it only when the screen size is 1020px and below-->
+                <div class="for-mobiles-only">Click on any of the social icons below to reach me!</div>
+                <div class="socials">
+                  <a href="mailto:bsackey166@gmail.com" class="links" target="_blank">
+                     <ion-icon  size="large" name="mail-outline"></ion-icon>
+                  </a> 
+                 <a class="show-for-only-bigscreens handles-style" href="mailto:bsackey166@gmail.com" class="links" target="_blank">Bsackey166@gmail.com</a>
+                </div>
+                <div class="socials">
+                    <a href="https://Twitter.com/mantse_11" class="links" target="_blank">
+                      <ion-icon size="large"  name="logo-twitter"></ion-icon>
+                    </a>
+                    <a class="show-for-only-bigscreens handles-style" href="https://Twitter.com/mantse_11" class="links" target="_blank">Twitter.com/mantse_11</a>
+                </div>
+                <div class="socials">
+                    <a href="https://Linkedin.com/hp" class="links" target="_blank">
+                       <ion-icon size="large"  name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a class="show-for-only-bigscreens handles-style" href="https://Linkedin.com/hp" class="links" target="_blank">Linkedin.com/hp</a>
+                </div>
+                <div class="socials">
+                    <a href="https://Instagram.com/mantse_11" class="links" target="_blank">
+                       <ion-icon size="large"  name="logo-instagram"></ion-icon>
+                    </a>
+                    <a class="show-for-only-bigscreens handles-style" href="https://Instagram.com/mantse_11" class="links" target="_blank">Instagram.com/mantse_11</a>
+                </div>
+                <!--The class margin-b is what provides the extra height after the github link-->
+                <div class="socials">
+                    <a href="https://Github.com/niinii123" class="links" target="_blank">
+                      <ion-icon size="large" name="logo-github"></ion-icon>
+                    </a>
+                    <a class="show-for-only-bigscreens handles-style" href="https://Github.com/niinii123" class="links" target="_blank">Github.com/niinii123</a>
+                </div>
+
+                                            <!--IMAGES AFTER MY SOCIAL MEDIA HANDLE LINKS-->
+              <img class="images-underlinks" src="img/javascript html and css logo.svg" alt="html-css-javascript"/>
+              <img class="images-underlinks" src="img/frameworks.svg" alt="angular react vue logo"/>
+              <img class="images-underlinks" src="img/react logo.svg" alt="react logo"/><br>
+              <img class="images-underlinks" class="not-svg" src="img/js1 logo.png"/><br><br>
+              <img class="images-underlinks" class="not-svg" src="img/php logo.png" alt="php logo"> 
+              </nav>       
+           </div>
+
+                                                    <!--MAIN CONTENT AREA-->
+           <div class="col-md-9 main-content main-content1" id="main-content">
+                                            <!--AREA ABOVE THE MAIN CONTENT AREA-->
+                <div class="top-main-content">
+                  <button id="toggle-sidebar-btn" class="btn btn-dark" onclick="toggleSidebar()">&#9776;</button>
+                  <span>
+                    <div class="lead text-nextto-button">Changing the world <div class="d-inline text-danger">1 line of code</div> at a time</div>
+                    <div>
+                      <a href="mailto:bsackey166@gmail.com" class="links" target="_blank">
+                         <ion-icon class="top-icons" size="large" name="mail-outline"></ion-icon>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://Twitter.com/mantse_11" class="links" target="_blank">
+                         <ion-icon class="top-icons" size="large"  name="logo-twitter"></ion-icon>
+                      </a>
+                    </div>
+                    <div>
+                       <a href="https://Linkedin.com/hp" class="links" target="_blank">
+                          <ion-icon class="top-icons" size="large"  name="logo-linkedin"></ion-icon>
+                       </a>
+                    </div>
+                    <div>
+                      <a href="https://Instagram.com/mantse_11" class="links" target="_blank">
+                          <ion-icon class="top-icons" size="large"  name="logo-instagram"></ion-icon>
+                       </a>
+                    </div>
+                    <div>
+                      <a href="https://Github.com/niinii123" class="links" target="_blank">
+                          <ion-icon class="top-icons" size="large" name="logo-github"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                 </span><br><br>
+              
+                <section class="d-md-block ">
+                    <div class="container">
+                        <div class="d-sm-flex aligns-items-center justify-content-between">
+                                 <div class="intro">
+                                    <h1>Hi There, I'm Ben <br>
+                                        A Fullstack Software 
+                                        Engineer. <br>
+                                     </h1> 
+                                     <p class="lead text-below-H1">
+                                        Please take a look around, <br>
+                                        see what i have been up to <br>
+                                        and let's see what we can <br>
+                                        build together. <br>
+
+                                        <a href="meetme.html" target="_blank">
+                                            <button class="btn btn-dark text-light button-after-intro">MEET ME</button>
+                                        </a>
+                                    
+                                      </p>
+                                 </div>
+                                  <img class="image-beside-intro" src="img/feeling proud.svg" alt="" />
+                        </div>
+                     </div>
+                </section>
+                
+                <section class="d-md-block">
+                    <div class="container">
+                        <h3 class="project-style">My Latest Projects</h3>
+                    </div>
+                </section>
+           
+           
+                <p> apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+                <p>apoejfieaj[fpiesff[sajofjepofjioejf[oiaesjfe
+                    ejfopdofiajoiejfpjsrogfjeoifjowjpofjofjeoiaejfase
+                    fsdjfpeoijfoiapfoejgopauohfoeifouapehofeffespofef
+                    esaofpheoufh0a9efoiejfo-uwe-hoahfoef-9wefuiohdifsuaf
+                    sdapfhoaeuifhiauoshfieuhofaiseufbiagiegceoygaifuef
+                    aeshfipeuhfauhpeiaeoifhuiephvaseufvefesn fesf e9fhsuafd
+                    adcihasdhaijsdhofuidshfsd,
+                </p>
+           </div>
+        </div>
+       </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!--The two script links above are from ionicon.com they make it possible to use the socials icons-->
+    <!--The script link below is the jquery cdn link that enables the use of jquery in this code-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            //Toggles the sidebar when the button is clicked
+            $('#toggle-sidebar-btn').on('click', function(){
+                $('.sidebarr').toggle();
+            //The block of code below is responsible for changing the width of the main content area
+            //depending on the visibility of the sidebar
+            //col-md-12 means the content area should occupy the entire width of the screen 
+                if($('.sidebarr').is(':visible')){
+                    $('.main-content').removeClass('col-md-12').addClass('col-md-9');
+                }else {
+                    $('.main-content').removeClass('col-md-9').addClass('col-md-12');
+                }
+            })
+        });
+    </script>
+</body>
+</html>
